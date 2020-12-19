@@ -2,11 +2,11 @@ GO build flags for Windows and Mac
 
 # For Windows: 
   ### Building a binary for linux from windows
-  - $Env:GOOS = "linux"; $Env:GOARCH = "amd64"; go build -o <your output file name>
+  - $Env:GOOS = "linux"; $Env:GOARCH = "amd64"; go build -o output_filename
 
 # For Mac:
   ### Building a binary for windows from mac
-  - GOOS=windows GOARCH=386 go build -o <your output file name>
+  - GOOS=windows GOARCH=386 go build -o output_filename
 
 If you want to see what go compiler actually does when building a go binary we can use the -x flag with build command
 
