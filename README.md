@@ -1,4 +1,4 @@
-GO build flags for Windows and Mac
+# GO build flags for Windows and Mac
 
 # For Windows: 
   ### Building a binary for linux from windows
