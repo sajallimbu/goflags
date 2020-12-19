@@ -22,7 +22,7 @@ go build -ldflags="-X main.version=v0.0.0" main.go
 
 Here, we are passing value to the variable version that is present in our project file from the command line on build
 
-+ -w removes drawf information
++ -w removes dwarf information
 + -s removes debug information
 + -o helps assign an output filename 
   
