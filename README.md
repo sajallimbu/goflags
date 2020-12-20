@@ -10,15 +10,11 @@
 
 If you want to see what go compiler actually does when building a go binary we can use the -x flag with build command
 
-```
-go build -x main.go
-```
+``` go build -x main.go ```
 
 If you want to pass flags as variable when building the go binary we can use -ldflags
 
-```
-go build -ldflags="-X main.version=v0.0.0" main.go
-```
+``` go build -ldflags="-X main.version=v0.0.0" main.go ```
 
 Here, we are passing value to the variable version that is present in our project file from the command line on build
 
@@ -36,9 +32,7 @@ Here, we have two files
 
 On linux or mac, we can use the following command to see the size of the file
 
-```
-du -h <file_name> 
-```
+``` du -h <file_name>  ```
 
 ### The reduced size has no impact on the funtionality of the binary 
 
@@ -46,6 +40,4 @@ There are a lot more commands and build flags available for go
 
 To see all the tools available for compiling go code use the cmd below
 
-```
-go tool compile --help
-```
+``` go tool compile --help ```
