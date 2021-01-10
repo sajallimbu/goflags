@@ -22,7 +22,7 @@ Here, we are passing value to the variable version that is present in our projec
 + -s removes debug information
 + -o helps assign an output filename 
   
-We can use multiple flags at build time at once by combining them in -ldflags="<build flags and their values>"
+We can use multiple flags at build time at once by combining them in -ldflags="<build flags and their values>" like so -ldflags="-w -s"
 
 By using -w and -s flags we can reduce the size of the compiled go binary since the standard binary comes with some additional info 
 
